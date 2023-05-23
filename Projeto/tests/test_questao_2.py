@@ -2,13 +2,13 @@ from Projeto.Questao_2 import questao_2
 
 # ** TESTE LETRA A ** 
 
-# def test_letra_a_1(): # rever
-#     teste= 'HMmmmhmhmh'
-#     assert questao_2.regex_2_a(teste)
+def test_letra_a_1(): # rever
+    teste= 'HMmmmhmhmh'
+    assert questao_2.regex_2_a(teste)
 
-# def test_letra_a_2(): # rever 
-#     teste= 'HMhmmm'
-#     assert questao_2.regex_2_a(teste)
+def test_letra_a_2(): # rever 
+    teste= 'HMhmmm'
+    assert questao_2.regex_2_a(teste)
 
 def test_letra_a_3():
     teste='MHhhmm'
@@ -18,9 +18,9 @@ def test_letra_a_4():
     teste= 'MHhmmmhmh'
     assert questao_2.regex_2_a(teste)
 
-# def test_letra_a_5(): # rever 
-#     teste= 'HMhmmmhhhmmmmhhhhm'
-#     assert questao_2.regex_2_a(teste)
+def test_letra_a_5(): # rever 
+    teste= 'HMhmmmhhhmmmmhhhhm'
+    assert questao_2.regex_2_a(teste)
 
 def test_letra_a_6_Fail(): # teste para ser invalidado
     teste='HHmmhh'
